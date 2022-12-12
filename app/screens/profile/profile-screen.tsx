@@ -210,4 +210,4 @@ export const ProfileScreen = observer(function ProfileScreen() {
           <Text style={styles.title}>Title</Text>
         </Animated.View>
  */
-//changes done by Y
+//changes done by X
