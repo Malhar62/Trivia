@@ -63,3 +63,4 @@ export default function Detail({ name, attended, txtstyle, diamonds, obj, onBack
         </Animated.View>
     )
 }
+//by X
