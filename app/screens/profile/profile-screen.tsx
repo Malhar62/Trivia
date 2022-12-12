@@ -102,6 +102,7 @@ export const ProfileScreen = observer(function ProfileScreen() {
             renderItem={({ item, index }) => (
               <View style={{ marginTop: index == 0 ? 0 : 20, height: HEIGHT(50), marginHorizontal: 10, backgroundColor: '#f1f1f1', borderRadius: 5, paddingHorizontal: 10 }}>
                 <View style={{ flexDirection: 'row', alignItems: 'center' }}>
+                  <Text>{index + 1}</Text>
                   <Text style={{ fontSize: 25, fontFamily: typography.marko }}>{item.name}</Text>
                   <Text> ({(Result(item.name) * queStore.scores.length) / 100})</Text>
                 </View>
@@ -121,7 +122,7 @@ export const ProfileScreen = observer(function ProfileScreen() {
           top: 0,
           left: 0,
           right: 0,
-          backgroundColor: 'blue',
+          backgroundColor: 'navy',
           overflow: 'hidden',
           height: length.interpolate({
             inputRange: [0, SCROLL],
