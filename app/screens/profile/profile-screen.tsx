@@ -96,7 +96,7 @@ export const ProfileScreen = observer(function ProfileScreen() {
             scrollEventThrottle={1}
             onScroll={Animated.event(
               [{ nativeEvent: { contentOffset: { y: length } } }],
-              { useNativeDriver: true }//X
+              { useNativeDriver: true }//by X
             )}
             contentContainerStyle={{ marginTop: HEADER_HEIGHT, paddingBottom: HEADER_HEIGHT }}
             renderItem={({ item, index }) => (
