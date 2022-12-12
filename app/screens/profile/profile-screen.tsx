@@ -121,7 +121,7 @@ export const ProfileScreen = observer(function ProfileScreen() {
           top: 0,
           left: 0,
           right: 0,
-          backgroundColor: 'navy',
+          backgroundColor: 'blue',
           overflow: 'hidden',
           height: length.interpolate({
             inputRange: [0, SCROLL],
